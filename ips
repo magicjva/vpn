@@ -1,1 +1,27 @@
-ips=["192.168.1.218","192.168.1.219"]
+{
+servers: [
+{
+country: "US",
+country_name: "USA",
+alisa_name: "SFO1",
+host: "134.209.1.133",
+password: "myvpn",
+load: 0
+},
+{
+country: "SG",
+country_name: "Singapore",
+alisa_name: "Singapore1",
+host: "128.199.147.163",
+password: "myvpn",
+load: 0
+}
+],
+vip_servers: [ ],
+tcp_port: [
+443
+],
+tip_intervals: 3,
+max_trials: 10,
+invite_ui: 2
+}
